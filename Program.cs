@@ -4,15 +4,21 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Enter first number:");
-        string input1 = Console.ReadLine();
+        Console.WriteLine("Enter a number:");
+        string input = Console.ReadLine();
 
-        Console.WriteLine("Enter second number:");
-        string input2 = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(input))
+        {
+            Console.WriteLine("Error: input cannot be empty");
+            return;
+        }
 
-        int number1 = int.Parse(input1);
-        int number2 = int.Parse(input2);
+        if (!int.TryParse(input, out int number))
+        {
+            Console.WriteLine("Error: please enter a valid number");
+            return;
+        }
 
-        Console.WriteLine("Numbers received: " + number1 + " and " + number2);
+        Console.WriteLine("You entered: " + number);
     }
 }
