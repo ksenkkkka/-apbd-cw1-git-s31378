@@ -1,0 +1,23 @@
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100  1) ﻿using System;
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100  2) 
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100  3) class Program
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100  4) {
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100  5)     static void Main()
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100  6)     {
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100  7)         Console.WriteLine("Enter first number:");
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100  8)         string input1 = Console.ReadLine();
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100  9) 
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100 10)         Console.WriteLine("Enter second number:");
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100 11)         string input2 = Console.ReadLine();
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100 12) 
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100 13)         if (!int.TryParse(input1, out int number1) || !int.TryParse(input2, out int number2))
+4983e58a (Kseniya Shakhnovich 2026-03-10 11:32:01 +0100 14)         {
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100 15)             Console.WriteLine("Error: please enter valid numbers");
+4983e58a (Kseniya Shakhnovich 2026-03-10 11:32:01 +0100 16)             return;
+4983e58a (Kseniya Shakhnovich 2026-03-10 11:32:01 +0100 17)         }
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100 18) 
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100 19)         int result = StatisticsHelper.Sum(number1, number2);
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100 20) 
+76c23247 (Kseniya Shakhnovich 2026-03-10 11:34:58 +0100 21)         Console.WriteLine("Sum = " + result);
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100 22)     }
+1d698558 (Kseniya Shakhnovich 2026-03-10 11:28:59 +0100 23) }

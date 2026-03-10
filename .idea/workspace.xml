@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48154373-8d7d-4e4d-bcd5-810b953bb932" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/meow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/meow.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,10 @@
     "accountId": "85925759-9790-4581-b6f1-f32d4faf62af"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StatisticsHelper.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -57,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773135743290</updated>
-      <workItem from="1773135745417" duration="1650000" />
+      <workItem from="1773135745417" duration="3701000" />
     </task>
     <task id="LOCAL-00001" summary="Meow">
       <option name="closed" value="true" />
@@ -75,7 +80,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773135977104</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial project">
+      <option name="closed" value="true" />
+      <created>1773137548222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773137548222</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commition 3">
+      <option name="closed" value="true" />
+      <created>1773137689112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773137689112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +119,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Meow" />
     <MESSAGE value="I add a meow file" />
-    <option name="LAST_COMMIT_MESSAGE" value="I add a meow file" />
+    <MESSAGE value="Initial project" />
+    <MESSAGE value="Commition 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commition 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
