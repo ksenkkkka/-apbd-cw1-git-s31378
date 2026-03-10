@@ -1,13 +1,25 @@
-﻿# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/projectSettingsUpdater.xml
-/modules.xml
-/contentModel.xml
-/.idea.-apbd-cw1-git-s31378.iml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+﻿# Build results
+bin/
+obj/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rider caches
+.idea/*
+!.idea/.gitignore
+!.idea/codeStyles
+!.idea/runConfigurations
