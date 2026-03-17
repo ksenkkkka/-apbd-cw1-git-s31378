@@ -12,7 +12,7 @@ class Program
 
         if (!int.TryParse(input1, out int number1) || !int.TryParse(input2, out int number2))
         {
-            Console.WriteLine("Error: please enter valid numbers");
+            Console.WriteLine("Feature branch: invalid input");
             return;
         }
 
